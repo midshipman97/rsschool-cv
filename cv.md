@@ -18,7 +18,6 @@ At the same time, I find programming extremely interesting and addictive.
 + CSS
 + JavaScipt(Basic)
 + Git
-+ Communicate
 
 ## The best Code Example:
 
