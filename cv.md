@@ -6,7 +6,6 @@
 + **Phone** - +7(923)427 79-07
 + **E-mail** - steadyshotalways@gmail.com
 + **Telegram** - @K_Mishman
-+ **Discord** - Midshipman#9160
 + **GitHub** - @midshipman97
 
 ## About me:
