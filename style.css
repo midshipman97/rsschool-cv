@@ -1,1 +1,250 @@
-/*Some text*/
+
+@font-face {
+    font-family: 'Teko';
+     src: url("assets\fonts\Teko\Teko-Light.ttf");
+   }
+@font-face {
+    font-family: 'Teko';
+     src: url("assets\fonts\Teko\Teko-Medium.ttf");
+   }
+@font-face {
+    font-family: 'Teko';
+     src: url("assets\fonts\Teko\Teko-Regular.ttf");
+   }
+.img {
+  max-width: 300px;
+  border-radius: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+.img-git {
+  max-width: 40px;
+  border-radius: 40px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 0px;
+  top: auto;
+  left: auto;
+}
+.img-rss {
+  max-width: 90px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 0px;
+  top: auto;
+  left: auto;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255); 
+  color: #57006A; 
+  background-attachment: fixed; 
+  background-repeat: repeat-x;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: smaller;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  padding: 16px 20px;
+  line-height: 50px;
+  color: #57006A;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.nav-link {
+  transition: .3s;
+}
+.nav-link {
+  color: #57006A;
+  text-decoration: none;  
+  transition: color 0.5s;
+  text-decoration: underline;
+}
+.nav-link:hover {
+  background-color: #57006A;
+  color: #ffffff;
+  text-decoration: none;
+}
+.exp-link {
+  padding: 10px 10px;
+  line-height: 50px;
+  color: #57006A;
+  text-decoration: none;
+  font-size: 18px;
+}
+.exp-link {
+  transition: .3s;
+}
+.exp-link {
+  color: #57006A;
+  text-decoration: none;  
+  transition: color 0.5s;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+.exp-link:hover {
+  background-color: #57006A;
+  color: #ffffff;
+  text-decoration: none;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+ font-style: italic;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+.button {
+  display: block;
+  position: relative;
+  margin-left: 20px;
+  width: 100px;
+  height: 20px;
+  font: inherit;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  z-index: 4;
+}
+.button-line {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  left: 0;
+  top: 8px;
+  background-color: black;
+  transition: all 0.3s ease 0s;
+}
+.section-title {
+  background-color: #57006A;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  margin-right: 15px;
+  margin-bottom: 36px;
+  padding-left: 60px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-list {
+    width: 100%;
+  }
+}
+.contacts {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: auto;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.summary {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #57006A;
+}
+.skills {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: auto;
+  border-radius: 5px;
+  border: 1px solid #57006A;
+}
+.experience {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #57006A;
+}
+.education {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: auto;
+  border-radius: 5px;
+  border: 1px solid #57006A;
+}
+.languages {
+  font-style: bold 24px Arial, sans-serif;
+  margin: 30px;
+  max-width: 400px;
+  color:black;
+  width: auto;
+  padding: auto;
+  border-radius: 5px;
+  border: 1px solid #57006A;
+}
+pre {
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.3) ;
+  border-radius: 5px;
+  margin: 30px;
+  border: 1px solid #57006A;
+}
+code {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}
+.footer-info {
+margin: auto;
+}
